@@ -4,34 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
-    td, th {
-      border: 1px solid black;
-      padding: .25em .5em;
-    }
-    table {
-      border-collapse: collapse;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <table>
-    <thead>
+    <thead id="thead">
       <tr>
-        <th>Volume (DRE)</th>
+        <th>Volcano</th>
         <th>Date</th>
-        <th>Name</th>
-        <th>Sources</th>
+        <th>Volume (DRE)</th>
+        <th>Volume (bulk)</th>
+        <th>Magnitude</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td>41 ± 4 km<sup>3</sup></td>
-        <td>1815</td>
-        <td>Tambora, Indonesia</td>
-        <td><a href="https://doi.org/10.1016/j.jvolgeores.2014.08.020" target="_blank">[1]</a></td>
-      </tr>
-    </tbody>
+    <tbody id="tbody"></tbody>
   </table>
+  <script src="script.js"></script>
 </body>
 </html>
